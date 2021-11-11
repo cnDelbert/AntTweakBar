@@ -26,3 +26,12 @@ lib/*.dll
 lib/*.exp
 lib/*.so
 lib/*.so.*
+
+# Ignore build dirs
+/build
+/cmake-build*
+/bin
+
+# Ignore IDE auto generations
+.vs
+.idea
